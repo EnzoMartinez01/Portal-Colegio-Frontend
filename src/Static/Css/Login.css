@@ -1,0 +1,43 @@
+body {
+    background-color: #0077ff;
+}
+
+.menu {
+    background-color: #fff;
+    position: fixed;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    padding: 5em;
+    margin: 5em 45em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: 1em;
+    align-items: center;
+}
+
+.form-control {
+    width: 90%;
+    height: 4em;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.button-sesion{
+    width: 90%;
+    height: 4em;
+    background-color: #0077ff;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+}
