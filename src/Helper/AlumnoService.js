@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ALUMNOS_BASE_REST_API_URL = 'http://localhost:8080/api/v1/portal/alumnos';
+const ALUMNOS_BASE_REST_API_URL = 'http://localhost:8081/api/v1/portal/alumnos';
 
 export const listAlumnos = () => {
     return axios.get(ALUMNOS_BASE_REST_API_URL + '/getalumnos')

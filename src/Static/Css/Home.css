@@ -1,0 +1,45 @@
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+}
+.loginDocente{
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+.contentlogindoc{
+    width: 100%;
+    height: 100%;
+}
+.contentlogindoc img{
+    width: 100%;
+    height: 100%;
+}
+.contentlogindoc Link{
+    z-index: 1;
+}
+.loginAlumno{
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+.loginAlumno img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.loginAlumno a{
+    z-index: 2;
+}
